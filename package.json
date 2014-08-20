@@ -1,0 +1,26 @@
+{
+  "name": "forecast-api",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": ["harvest", "forecast", "forecast-api", "forecastapp", "schedule", "projects", "milestones"],
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "author": "Tony Milne",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inlight-media/node-forecast-api.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.8.1",
+    "request": "^2.40.0",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^0.4.0",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
+  }
+}
